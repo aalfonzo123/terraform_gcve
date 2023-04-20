@@ -4,7 +4,9 @@ services_to_enable = {
     # networking project id goes here
     "alfproject-358913" = ["dns.googleapis.com", "servicenetworking.googleapis.com"],
     # gcve project id goes here
-    "alfproject-358913" = ["vmwareengine.googleapis.com","dns.googleapis.com","cloudresourcemanager.googleapis.com"]
+    "alfproject-358913" = ["vmwareengine.googleapis.com"]
     # monitoring project id goes here
-    "alfproject-358913" = ["secretmanager.googleapis.com"]
+    "alfproject-358913" = ["monitoring.googleapis.com"]
+    # deployment project id goes here, you can repeat an already used project id
+    "alfproject-358913" = ["cloudresourcemanager.googleapis.com","secretmanager.googleapis.com"]
 }
