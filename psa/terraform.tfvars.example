@@ -1,0 +1,7 @@
+project_id = "alfproject-358913"
+customer_vpc = "windows-vpc"
+psa_address_range = {
+    name = "psa-range-sample"
+    address = "192.168.30.0"
+    prefix_length = 24
+}
