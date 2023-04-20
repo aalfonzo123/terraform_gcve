@@ -1,0 +1,10 @@
+# Note that unlike other resources that fail if they already exist, 
+# terraform apply can be successfully used to verify already enabled services.
+services_to_enable = {
+    # networking project id goes here
+    "alfproject-358913" = ["dns.googleapis.com", "servicenetworking.googleapis.com"],
+    # gcve project id goes here
+    "alfproject-358913" = ["vmwareengine.googleapis.com","dns.googleapis.com","cloudresourcemanager.googleapis.com"]
+    # monitoring project id goes here
+    "alfproject-358913" = ["secretmanager.googleapis.com"]
+}
