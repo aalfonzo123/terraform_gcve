@@ -7,6 +7,6 @@ services_to_enable = {
     "alfproject-358913" = ["vmwareengine.googleapis.com"]
     # monitoring project id goes here
     "alfproject-358913" = ["monitoring.googleapis.com"]
-    # deployment project id goes here, you can repeat an already used project id
+    # deployment project id goes here, you can repeat an already used project id (i.e. gcve project id)
     "alfproject-358913" = ["cloudresourcemanager.googleapis.com","secretmanager.googleapis.com"]
 }
